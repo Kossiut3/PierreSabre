@@ -5,6 +5,13 @@ import personnages.*;
 
 public class HistoireTP4 {
 	
+	
+	
+	
+	
+	
+	
+	
 	public static void main (String[] args) {
 		Humain prof = new Humain("Prof","kombucha",54);
 		prof.direBonjour();
@@ -12,7 +19,7 @@ public class HistoireTP4 {
 		prof.acheter("un jeu", 2);
 		prof.acheter("un kimono", 50);
 		System.out.println("\n");
-		Commercant marco = new Commercant("Marco", "the", 20);
+		Commercant marco = new Commercant("Marco", 20);
 		marco.direBonjour();
 		marco.seFaireExtorquer();
 		marco.recevoir(15);

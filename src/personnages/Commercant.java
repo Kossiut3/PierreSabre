@@ -2,10 +2,10 @@ package personnages;
 
 public class Commercant extends Humain {
 
-	private static final String boissonF = "the";
+	private static final String BOISSON = "the";
 
-	public Commercant(String nom, String boissonFavorite, int nbArgent) {
-		super(nom, boissonFavorite, nbArgent);
+	public Commercant(String nom, int nbArgent) {
+		super(nom, BOISSON, nbArgent);
 	}
 
 	public int seFaireExtorquer() {
